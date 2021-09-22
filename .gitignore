@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+#pipenv 
+Pipfile
+Pipfile.lock
+
+#IDE 
+.vscode
