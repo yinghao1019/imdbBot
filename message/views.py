@@ -26,6 +26,7 @@ def LineReply(request):
             events=parser.parse(body,signature)
 
             for e in events:
+
                 if isinstance(e,MessageEvent):
                     texts=e.message.text #get message
 
