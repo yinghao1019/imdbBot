@@ -131,10 +131,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #Line bot information
-LINE_CHANNEL_ACCESS_TOKEN='J6yZDohStfJTgceroHikABJsoVjER2JNguwiVToKIEClld8ywCfdLK7d1DsioIv \
-EiOiHuElINnyGuDW/CTmOFWyjvrNnu/T1OrWFtfbnNWb8oCbj \
-VPS8nCoRYSoQjMSc+/+1EFhnEWR+OS4xjGaUIQdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET='bef49a0a9823fdeb76440a6dcc71b8e7'
+LINE_CHANNEL_ACCESS_TOKEN='_channel_access_token'
+LINE_CHANNEL_SECRET='your_channel_secret'
 
 #Cloud ai service
 PROJECT_ID=os.environ.get("PROJECT_ID")
