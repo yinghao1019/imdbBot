@@ -28,6 +28,7 @@ packaging==21.0
 platformdirs==2.3.0
 proto-plus==1.19.0
 protobuf==3.18.0
+psycopg2==2.9.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycodestyle==2.7.0
