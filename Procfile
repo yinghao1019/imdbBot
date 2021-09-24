@@ -1,1 +1,1 @@
-web : gunicorn --pythonpath imdbBot imdbBot.wsgi
+web : gunicorn imdbBot.wsgi
