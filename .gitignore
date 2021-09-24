@@ -1,9 +1,12 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-
-#pipenv 
+*.pyc
+#pipenv
 Pipfile
 Pipfile.lock
 
-#IDE 
+#IDE
 .vscode
+
+#database
+db.sqlite3
