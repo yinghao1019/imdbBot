@@ -20,6 +20,7 @@ def LineReply(request):
         signature=request.headers["x-line-signature"]
         body=request.body.decode("utf-8")
 
+
         try:
             #verify request from specific linebot
             events=parser.parse(body,signature)
