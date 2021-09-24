@@ -1,1 +1,1 @@
-web : gunicorn imdbBot.wsgi
+web: gunicorn imdbBot.wsgi
